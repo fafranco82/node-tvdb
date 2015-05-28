@@ -2,9 +2,14 @@
   "author": "Matias Meno <m@tias.me>",
   "name": "tvdb",
   "description": "A wrapper for thetvdb.coms XML API",
-  "version": "0.0.13",
+  "version": "0.0.14-dev",
   "website": "https://github.com/enyo/node-tvdb",
-  "keywords": [ "thetvdb", "thetvdb.com", "xml", "api" ],
+  "keywords": [
+    "thetvdb",
+    "thetvdb.com",
+    "xml",
+    "api"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/enyo/node-tvdb.git"
@@ -18,13 +23,14 @@
     "node": ">=0.6.x <0.9"
   },
   "dependencies": {
-    "xml2js": "0.x",
+    "adm-zip": "0.4.x",
+    "q": "1.1.x",
     "underscore": "1.x",
-    "node-zip": "0.x"
+    "xml2js": "0.2.x"
   },
   "devDependencies": {
     "mocha": "1.x",
-    "coffee-script": "1.x",
+    "coffee-script": "1.6.x",
     "should": "0.x"
   }
 }
